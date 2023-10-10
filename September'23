@@ -1,4 +1,73 @@
 \documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+% Adjust margins
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry}
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated PDF is machine-readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+  
+
+\newcommand{\resumeProjectHeading}[2]{
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Anviksha Singh} \\ \vspace{3pt}
+    \href{https://github.com/Anviksha1149}{\raisebox{-0.2\height}\faGithub\ {github.com/Anviksha1149}} ~
+    \href{https://www.linkedin.com/in/anviksha-singh-a59547268/}{\raisebox{-0.2\height}\faLinkedin\ {linkedin.com/in/anviksha-singh}} ~
+   
+    \small \raisebox{-0.1\height}\faPhone\ \href{tel:+917052452571}{+91 7052452571} ~ 
+    \href{mailto:anvikshasingh01@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {anvikshasingh01@gmail.com}} 
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+As a dedicated Computer Science student, I am passionate about harnessing the power of technology to solve real-world problems. With a strong foundation in programming languages and a particular proficiency in Java, I am eager to contribute my skills and knowledge to innovative projects and teams. My commitment to learning and adapting to the rapidly evolving field of computer science drives my pursuit of excellence in every endeavor. Explore my resume to discover how my expertise and enthusiasm can be an asset to your organization.
+
+%-----------EXPERIENCE-----------
+%\section{Experience}
+%\resumeSubHeadingListStart
+
+%\resumeSubheading
 %{SCULPTED THREADS}{Jul '23 -- Present}
 %{Full-stack Web Developer}{On Site , Bhubaneswar}
 %\resumeItemListStart
@@ -24,114 +93,7 @@
 % \resumeItem{Collaborated with ambassadors to promote 'Tech for All' through events and resources.}
 % \resumeItemListEnd
 
-
-%\resumeSubheading
-%{MICROSOFT LEARN STUDENT AMBASSADOR , KIIT CHAPTER}{Jan '22 -- Present}
-%{Web Development Lead}{On site , Bhubaneswar}
-%\resumeItemListStart
-%\resumeItem{Organized tech events , hosted and led workshops and contributed on multiple web and other tech projects.}
-%\resumeItem{Leading a team of 5 designers , 6 Front-end developers and 5 Back-end developers to led the design and development of multiple tech projects.}
-%\resumeItemListEnd
-
-
-
-%\resumeSubHeadingListEnd
-
-%-----------PROJECTS-----------
-\section{Projects}
-\resumeSubHeadingListStart
-
-\resumeProjectHeading
-{\textbf{Face Attendance using Real Time database} $|$ \emph{Python , OpenCV 
- , Firebase , cmake , dlib , face-recognition ,
- cvzone , opencv-python }}{Sept '23}
-\resumeItemListStart
-\resumeItem{ Designed and developed a facial recognition system for face attendance using real time database.}
-\resumeItem{Implemented face_recognition and other Opencv funtionalities.}
-\resumeItem{used Firebase for providing real time database assistance which updates the attendance .}
-\resumeItemListEnd
-
-%\resumeProjectHeading
-%{\textbf{Face Attendance using RealTime Database} $|$ \emph{Python , Firebase , OpenCV , cmake , dlib , face-recognition library , cvzone , opencv-python .}}{Sept '23}
-%\resumeItemListStart
-%\resumeItem{Worked with the tech team to build and craft the making of the TEDxKIITUNIVERSITY Website .}
-%\resumeItem{Designed and developed the front end of the entire website .}
-%\resumeItemListEnd 
-
-\resumeProjectHeading
-{\textbf{Portfolio Website} $|$ \emph{HTML,CSS,Java Script.}}{Oct '23}
-\resumeItemListStart
-\resumeItem{ Designed my portfolio website, a labor of love crafted with HTML, CSS, and JavaScript, showcasing my passion for web development and design.}
-\resumeItem{Feel free to explore my portfolio to gain insights into my capabilities, creativity, and dedication to delivering top-notch web solutions.}
-\resumeItemListEnd
-\end{document}\documentclass[letterpaper,11pt]{article}
-%{SCULPTED THREADS}{Jul '23 -- Present}
-%{Full-stack Web Developer}{On Site , Bhubaneswar}
-%\resumeItemListStart
-%\resumeItem{Designed and developing the entire web application for the startup.}
-%\resumeItem{Working on Wordpress to design develop a full-stack e-commerce website to serve as a platform for the start-up to grow.}
-% \resumeItem{Integrated AWS services for secure backend access and implemented CloudFront for efficient data caching.}
-%\resumeItemListEnd
-
-
-%\resumeSubheading
-%{ZIVRI.ME}{May 23 -- Jun 23}
-%{Three.js Web Developer}{Remote}
-%\resumeItemListStart
-%\resumeItem{Designed and developed the entire website with the feature of user friendly front-end and user based 3d customisation of clothes.}
-%\resumeItem{Implemented color canvas and an AI tool for image and logo generations on t-shirts using OpenAI.}
-%\resumeItemListEnd
-
-% \resumeSubheading
-% {TEDxKIITUNIVERSITY}{April 23 -- May 23}
-% {Full Stack Developer}{On site , Bhubaneswar}
-% \resumeItemListStart
-% \resumeItem{Organized tech events, hosted workshops, and developed Stocks Dashboard Site.}
-% \resumeItem{Collaborated with ambassadors to promote 'Tech for All' through events and resources.}
-% \resumeItemListEnd
-
-
-%\resumeSubheading
-%{MICROSOFT LEARN STUDENT AMBASSADOR , KIIT CHAPTER}{Jan '22 -- Present}
-%{Web Development Lead}{On site , Bhubaneswar}
-%\resumeItemListStart
-%\resumeItem{Organized tech events , hosted and led workshops and contributed on multiple web and other tech projects.}
-%\resumeItem{Leading a team of 5 designers , 6 Front-end developers and 5 Back-end developers to led the design and development of multiple tech projects.}
-%\resumeItemListEnd
-
-
-
-%\resumeSubHeadingListEnd
-
-%-----------PROJECTS-----------
-\section{Projects}
-\resumeSubHeadingListStart
-
-\resumeProjectHeading
-{\textbf{Face Attendance using Real Time database} $|$ \emph{Python , OpenCV 
- , Firebase , cmake , dlib , face-recognition ,
- cvzone , opencv-python }}{Sept '23}
-\resumeItemListStart
-\resumeItem{ Designed and developed a facial recognition system for face attendance using real time database.}
-\resumeItem{Implemented face_recognition and other Opencv funtionalities.}
-\resumeItem{used Firebase for providing real time database assistance which updates the attendance .}
-\resumeItemListEnd
-
-%\resumeProjectHeading
-%{\textbf{Face Attendance using RealTime Database} $|$ \emph{Python , Firebase , OpenCV , cmake , dlib , face-recognition library , cvzone , opencv-python .}}{Sept '23}
-%\resumeItemListStart
-%\resumeItem{Worked with the tech team to build and craft the making of the TEDxKIITUNIVERSITY Website .}
-%\resumeItem{Designed and developed the front end of the entire website .}
-%\resumeItemListEnd 
-
-\resumeProjectHeading
-{\textbf{Portfolio Website} $|$ \emph{HTML,CSS,Java Script.}}{Oct '23}
-\resumeItemListStart
-\resumeItem{ Designed my portfolio website, a labor of love crafted with HTML, CSS, and JavaScript, showcasing my passion for web development and design.}
-\resumeItem{Feel free to explore my portfolio to gain insights into my capabilities, creativity, and dedication to delivering top-notch web solutions.}
-\resumeItemListEnd
-\resumeProjectHeading
-{\textbf{Face Attendance using Real Time database} $|$ \emph{Python , OpenCV 
+ %\resumeSubheading
  , Firebase , cmake , dlib , face-recognition ,
  cvzone , opencv-python }}{Sept '23}
 \resumeItemListStart
@@ -182,4 +144,4 @@
 
 \end{document}
 
-\end{document}
+
