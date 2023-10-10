@@ -1,10 +1,135 @@
 \documentclass[letterpaper,11pt]{article}
+%{SCULPTED THREADS}{Jul '23 -- Present}
+%{Full-stack Web Developer}{On Site , Bhubaneswar}
+%\resumeItemListStart
+%\resumeItem{Designed and developing the entire web application for the startup.}
+%\resumeItem{Working on Wordpress to design develop a full-stack e-commerce website to serve as a platform for the start-up to grow.}
+% \resumeItem{Integrated AWS services for secure backend access and implemented CloudFront for efficient data caching.}
+%\resumeItemListEnd
+
+
+%\resumeSubheading
+%{ZIVRI.ME}{May 23 -- Jun 23}
+%{Three.js Web Developer}{Remote}
+%\resumeItemListStart
+%\resumeItem{Designed and developed the entire website with the feature of user friendly front-end and user based 3d customisation of clothes.}
+%\resumeItem{Implemented color canvas and an AI tool for image and logo generations on t-shirts using OpenAI.}
+%\resumeItemListEnd
+
+% \resumeSubheading
+% {TEDxKIITUNIVERSITY}{April 23 -- May 23}
+% {Full Stack Developer}{On site , Bhubaneswar}
+% \resumeItemListStart
+% \resumeItem{Organized tech events, hosted workshops, and developed Stocks Dashboard Site.}
+% \resumeItem{Collaborated with ambassadors to promote 'Tech for All' through events and resources.}
+% \resumeItemListEnd
+
+
+%\resumeSubheading
+%{MICROSOFT LEARN STUDENT AMBASSADOR , KIIT CHAPTER}{Jan '22 -- Present}
+%{Web Development Lead}{On site , Bhubaneswar}
+%\resumeItemListStart
+%\resumeItem{Organized tech events , hosted and led workshops and contributed on multiple web and other tech projects.}
+%\resumeItem{Leading a team of 5 designers , 6 Front-end developers and 5 Back-end developers to led the design and development of multiple tech projects.}
+%\resumeItemListEnd
+
+
+
 %\resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
 \section{Projects}
 \resumeSubHeadingListStart
 
+\resumeProjectHeading
+{\textbf{Face Attendance using Real Time database} $|$ \emph{Python , OpenCV 
+ , Firebase , cmake , dlib , face-recognition ,
+ cvzone , opencv-python }}{Sept '23}
+\resumeItemListStart
+\resumeItem{ Designed and developed a facial recognition system for face attendance using real time database.}
+\resumeItem{Implemented face_recognition and other Opencv funtionalities.}
+\resumeItem{used Firebase for providing real time database assistance which updates the attendance .}
+\resumeItemListEnd
+
+%\resumeProjectHeading
+%{\textbf{Face Attendance using RealTime Database} $|$ \emph{Python , Firebase , OpenCV , cmake , dlib , face-recognition library , cvzone , opencv-python .}}{Sept '23}
+%\resumeItemListStart
+%\resumeItem{Worked with the tech team to build and craft the making of the TEDxKIITUNIVERSITY Website .}
+%\resumeItem{Designed and developed the front end of the entire website .}
+%\resumeItemListEnd 
+
+\resumeProjectHeading
+{\textbf{Portfolio Website} $|$ \emph{HTML,CSS,Java Script.}}{Oct '23}
+\resumeItemListStart
+\resumeItem{ Designed my portfolio website, a labor of love crafted with HTML, CSS, and JavaScript, showcasing my passion for web development and design.}
+\resumeItem{Feel free to explore my portfolio to gain insights into my capabilities, creativity, and dedication to delivering top-notch web solutions.}
+\resumeItemListEnd
+\end{document}\documentclass[letterpaper,11pt]{article}
+%{SCULPTED THREADS}{Jul '23 -- Present}
+%{Full-stack Web Developer}{On Site , Bhubaneswar}
+%\resumeItemListStart
+%\resumeItem{Designed and developing the entire web application for the startup.}
+%\resumeItem{Working on Wordpress to design develop a full-stack e-commerce website to serve as a platform for the start-up to grow.}
+% \resumeItem{Integrated AWS services for secure backend access and implemented CloudFront for efficient data caching.}
+%\resumeItemListEnd
+
+
+%\resumeSubheading
+%{ZIVRI.ME}{May 23 -- Jun 23}
+%{Three.js Web Developer}{Remote}
+%\resumeItemListStart
+%\resumeItem{Designed and developed the entire website with the feature of user friendly front-end and user based 3d customisation of clothes.}
+%\resumeItem{Implemented color canvas and an AI tool for image and logo generations on t-shirts using OpenAI.}
+%\resumeItemListEnd
+
+% \resumeSubheading
+% {TEDxKIITUNIVERSITY}{April 23 -- May 23}
+% {Full Stack Developer}{On site , Bhubaneswar}
+% \resumeItemListStart
+% \resumeItem{Organized tech events, hosted workshops, and developed Stocks Dashboard Site.}
+% \resumeItem{Collaborated with ambassadors to promote 'Tech for All' through events and resources.}
+% \resumeItemListEnd
+
+
+%\resumeSubheading
+%{MICROSOFT LEARN STUDENT AMBASSADOR , KIIT CHAPTER}{Jan '22 -- Present}
+%{Web Development Lead}{On site , Bhubaneswar}
+%\resumeItemListStart
+%\resumeItem{Organized tech events , hosted and led workshops and contributed on multiple web and other tech projects.}
+%\resumeItem{Leading a team of 5 designers , 6 Front-end developers and 5 Back-end developers to led the design and development of multiple tech projects.}
+%\resumeItemListEnd
+
+
+
+%\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Face Attendance using Real Time database} $|$ \emph{Python , OpenCV 
+ , Firebase , cmake , dlib , face-recognition ,
+ cvzone , opencv-python }}{Sept '23}
+\resumeItemListStart
+\resumeItem{ Designed and developed a facial recognition system for face attendance using real time database.}
+\resumeItem{Implemented face_recognition and other Opencv funtionalities.}
+\resumeItem{used Firebase for providing real time database assistance which updates the attendance .}
+\resumeItemListEnd
+
+%\resumeProjectHeading
+%{\textbf{Face Attendance using RealTime Database} $|$ \emph{Python , Firebase , OpenCV , cmake , dlib , face-recognition library , cvzone , opencv-python .}}{Sept '23}
+%\resumeItemListStart
+%\resumeItem{Worked with the tech team to build and craft the making of the TEDxKIITUNIVERSITY Website .}
+%\resumeItem{Designed and developed the front end of the entire website .}
+%\resumeItemListEnd 
+
+\resumeProjectHeading
+{\textbf{Portfolio Website} $|$ \emph{HTML,CSS,Java Script.}}{Oct '23}
+\resumeItemListStart
+\resumeItem{ Designed my portfolio website, a labor of love crafted with HTML, CSS, and JavaScript, showcasing my passion for web development and design.}
+\resumeItem{Feel free to explore my portfolio to gain insights into my capabilities, creativity, and dedication to delivering top-notch web solutions.}
+\resumeItemListEnd
 \resumeProjectHeading
 {\textbf{Face Attendance using Real Time database} $|$ \emph{Python , OpenCV 
  , Firebase , cmake , dlib , face-recognition ,
@@ -54,5 +179,7 @@
 {KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY}{2021 -- 2025}
 {B. Tech in Computer Science and Engineering , CGPA 8.9/10}{Bhubaneswar, Odisha .}
 \resumeSubHeadingListEnd
+
+\end{document}
 
 \end{document}
