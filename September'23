@@ -96,7 +96,7 @@ As a dedicated Computer Science student, I am passionate about harnessing the po
 \resumeItem{ Designed and developed a facial recognition system for face attendance using real time database.}
 \resumeItem{Implemented
 face recognition and other Opencv funtionalities to detect the attendance .}
-\resumeItem{Used ad integrated
+\resumeItem{Used an integrated
 Firebase for providing real time database assistance which updates the attendance on its own .}
 \resumeItemListEnd
 
@@ -126,7 +126,7 @@ top-notch web solutions.}
     \small{\item{
     \textbf{Languages}{: Java , C , C++, Python ,HTML , CSS .} \\
 
-    \textbf{Developer Tools}{:Git & GitHub , VS Code , GitBash ,  MySQL , PyCharm .} \\
+    \textbf{Developer Tools}{:Git and GitHub , VS Code , GitBash , PyCharm .} \\
     \textbf{Other skills }{:  SQL , OS , DSA , SE , Computer Networks .} \\
     }}
 \end{itemize}
