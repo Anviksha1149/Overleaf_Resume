@@ -1,0 +1,161 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+% Adjust margins
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry}
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated PDF is machine-readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Anviksha Singh} \\ \vspace{3pt}
+    \href{https://github.com/Anviksha1149}{\raisebox{-0.2\height}\faGithub\ {github.com/Anviksha1149}} ~
+    \href{https://www.linkedin.com/in/anviksha-singh-a59547268/}{\raisebox{-0.2\height}\faLinkedin\ {linkedin.com/in/anviksha-singh}} ~
+   
+    \small \raisebox{-0.1\height}\faPhone\ \href{tel:+917052452571}{+91 7052452571} ~
+    \href{mailto:anvikshasingh01@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {anvikshasingh01@gmail.com}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+As a dedicated Computer Science student, I am passionate about harnessing the power of technology to solve real-world problems. With a strong foundation in programming languages and a particular proficiency in Java, I am eager to contribute my skills and knowledge to innovative projects and teams. My commitment to learning and adapting to the rapidly evolving field of computer science drives my pursuit of excellence in every endeavor. Explore my resume to discover how my expertise and enthusiasm can be an asset to your organization.
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+
+\resumeProjectHeading
+
+
+{\textbf{\href{https://github.com/Anviksha1149/Face_Attendance_using-CV}{Realtime face attendance}} $|$ \emph{Python , OpenCV , Firebase , cmake , dlib , face-recognition , cvzone.}} {Aug '23}
+\resumeItemListStart
+\resumeItem{ Designed and developed a facial recognition system for face attendance using real time database.}
+\resumeItem{Implemented
+face recognition and other Opencv funtionalities to detect the attendance .}
+\resumeItem{Used an integrated
+Firebase for providing real time database assistance which updates the attendance on its own .}
+\resumeItemListEnd
+
+
+% \resumeProjectHeading
+
+
+% {\textbf{\href{https://github.com/Anviksha1149/Rock-Paper-Scissor.git}{Rock-Paper-Scissor}} $|$ \emph{HTML , CSS , JavaScript.}} {Dec '23}
+
+% {\textbf{\href{https://github.com/Anviksha1149/Portfolio-website.git}{Portfolio Website}} $|$ \emph{HTML, CSS, JavaScript}} {Jan '24}
+
+% \resumeItemListStart
+% \resumeItem{A classic rock-paper-scissors game against the computer, brought to life on the web.}
+% \resumeItem{ Track your wins and losses with a prominent scoreboard that updates instantly.}
+% \resumeItem{ A message ("You Win!" or "You Lose!" or "Tie") appears after each round, keeping you informed.}
+
+% \resumeItem{Start fresh and even the score with a single click on Reset button.}
+% \resumeItemListEnd
+
+\resumeProjectHeading
+% {\textbf{Portfolio Website} $|$ \emph{HTML, CSS, JavaScript}}{Sept '23}
+% \resumeItemListStart
+{\textbf{\href{https://github.com/Anviksha1149/Portfolio-website.git}{Portfolio Website}} $|$ \emph{HTML, CSS, JavaScript}} {Jan '24}
+\resumeItemListStart
+\resumeItem{Designed my portfolio website, a labor of love crafted with HTML, CSS, and JavaScript, showcasing my passion for
+web development and design.}
+\resumeItem{Feel free to explore my portfolio to gain insights into my capabilities, creativity, and dedication to delivering
+top-notch web solutions.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{\href{https://github.com/Anviksha1149/Rock-Paper-Scissor.git}{Rock-Paper-Scissor}} $|$ \emph{HTML, CSS, JavaScript}} {Jan '24}
+\resumeItemListStart
+\resumeItem{A classic rock-paper-scissors game against the computer, brought to life on the web.}
+\resumeItem{Track your wins and losses with a prominent scoreboard that updates instantly.}
+\resumeItem{ A message ("You Win!" or "You Lose!" or "Tie") appears after each round, keeping you informed.}
+\resumeItem{Start fresh and even the score with a single click on Reset button.}
+\resumeItemListEnd
+
+% \resumeSubHeadingListEnd
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Languages}{: Java , C , Python ,HTML , CSS , JavaScript .} \\
+
+    \textbf{Developer Tools}{:Git and GitHub , VS Code , PyCharm .} \\
+    \textbf{Other skills }{:  SQL , OS , DSA , SE , Computer Networks .} \\
+    }}
+\end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY}{2021 -- 2025}
+{B. Tech in Computer Science and Engineering , CGPA 8.82/10}{Bhubaneswar, Odisha .}
+\resumeSubHeadingListEnd
+
+\end{document}
+
